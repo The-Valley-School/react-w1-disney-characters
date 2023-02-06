@@ -1,4 +1,4 @@
-# WORKSHOP 1: DisneyPedia
+# WORKSHOP 2: DisneyPedia
 
 Disney nos ha encargado realizar una enciclopedia con la información de sus personajes, para ello nos han entregado una API REST que podemos consumir para consultar toda la información.
 

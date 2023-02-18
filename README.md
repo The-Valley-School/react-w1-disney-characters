@@ -36,7 +36,7 @@ Para cerrar la ventana modal bastará con hacer click en la propia modal o en el
 
 Para recuperar el listado de personajes de Disney debemos hacer uso de la siguiente API:
 
-[https://api.disneyapi.dev/characters?page=1](https://api.disneyapi.dev/characters?page=1)
+<https://api.disneyapi.dev/characters?page=1>
 
 Como podrás observar la API recibe un parámetro con la página que deseas consultar, y te devolverá siempre 50 personajes. En la siguiente captura podrás ver la respuesta de la API con un personaje desplegado:
 
@@ -44,9 +44,9 @@ Como podrás observar la API recibe un parámetro con la página que deseas cons
 
 Para recuperar el resto de página solo tendríamos que ir llamando con el número de página deseado:
 
-[https://api.disneyapi.dev/characters?page=2](https://api.disneyapi.dev/characters?page=2)
+<https://api.disneyapi.dev/characters?page=2>
 
-[https://api.disneyapi.dev/characters?page=3](https://api.disneyapi.dev/characters?page=3)
+<https://api.disneyapi.dev/characters?page=3>
 
 …
 
@@ -60,7 +60,7 @@ De esta petición solo utilizaremos:
 
 Cuando el usuario pulse sobre una tarjeta, haremos una nueva petición para recuperar todos los detalles del personaje haciendo uso de una petición específica para ello:
 
-[https://api.disneyapi.dev/characters/11](https://api.disneyapi.dev/characters/11)
+<https://api.disneyapi.dev/characters/11>
 
 Esta petición recibe el ID del personaje (en el ejemplo anterior 11) y te devolverá todos los detalles:
 
